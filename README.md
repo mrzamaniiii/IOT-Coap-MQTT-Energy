@@ -2,8 +2,6 @@
 
 This repository, covering Wireshark packet sniffing for CoAP/MQTT and energy consumption estimation for IoT devices based on measured data.
 
----
-
 ## Project Overview
 The project has two main parts:
 
@@ -21,7 +19,6 @@ The project has two main parts:
    - Computation of:
      - Cycle duration
      - Energy per cycle
----
 
 ## Features
 - **Wireshark Filters** for isolating specific CoAP/MQTT traffic patterns.
@@ -31,7 +28,6 @@ The project has two main parts:
   - MQTT client ID extraction
   - Last Will topic analysis
   - Retained message count
----
 
 ## How to Use
 1. **Packet Analysis**:
@@ -41,7 +37,6 @@ The project has two main parts:
 2. **Energy Analysis**:
    - Open CSV files and compute energy values using the provided formulas.
    - Compare results with the report for validation.
----
 
 ## Key Results
 - **Packet Analysis**:
@@ -49,5 +44,3 @@ The project has two main parts:
   - 3 resources with equal confirmable & non-confirmable GET requests
   - 4 MQTT clients using multi-level wildcards
   - 1 MQTT client with a "university" Last Will topic
-  - 208 retained MQTT publishes (QoS 0)
-  - 0 MQTT-SN local messages
