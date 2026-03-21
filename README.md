@@ -10,7 +10,7 @@ The project has two main parts:
    - MQTT client connections, subscriptions, and Last Will messages
    - Topic filtering with/without wildcards
    - Retained MQTT publishes
-   - 
+    
 2. **Energy Consumption Estimation**
    - Analysis of CSV power measurement files:
      - `transmission_power.csv`
@@ -28,15 +28,6 @@ The project has two main parts:
   - MQTT client ID extraction
   - Last Will topic analysis
   - Retained message count
-
-## How to Use
-1. **Packet Analysis**:
-   - Open `.pcap` file in Wireshark.
-   - Apply documented filters to reproduce results.
-
-2. **Energy Analysis**:
-   - Open CSV files and compute energy values using the provided formulas.
-   - Compare results with the report for validation.
 
 ## Key Results
 - **Packet Analysis**:
